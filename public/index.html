@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+        <title>Socket Chat APP</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+    </head>
+    <body>
+        <h1>Hello file send by server</h1>
+       
+        <div id="mario-chat">
+            <div id="chat-window">
+                <div id="output">
+                    <!-- output the message -->
+                    <p> this is output screen</p>
+                    
+                </div>
+                <p id="feedback"> </p>
+                <input type="text" id="handle" placeholder="handle" />
+                <input type="text" id="message" placeholder="message" />
+                <button id="send">Send</button>
+            </div>
+        </div>
+        <script src='chat.js'></script>
+    </body>
+</html>
